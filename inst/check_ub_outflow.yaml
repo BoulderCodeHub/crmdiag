@@ -1,0 +1,16 @@
+# check ub res outflow >= 0
+rules:
+-
+  expr: BlueMesa.Outflow >= 0
+  name: BlueMesa.Outflow
+  label: Blue Mesa Outflow
+  description: |
+    Blue Mesa outflow should never be negative.
+  rdf: UBRes.rdf
+-
+  expr: MorrowPoint.Outflow >= 0
+  name: MorrowPoint.Outflow
+  label: Morrow Point Outflow
+  description: |
+    Morrow Point outflow should never be negative.
+  rdf: UBRes.rdf
