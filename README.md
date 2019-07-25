@@ -4,6 +4,8 @@
 
 Diagnostics and unit tests for Colorado River models, specifically CRSS and MTOM.
 
+Built on the validate package.
+
 ## Installation
 
 Not ready for installation
